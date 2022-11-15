@@ -36,7 +36,7 @@ hr {
     flex-wrap: wrap;
     justify-content:space-between;
     flex-direction:row;
-    padding: 2em 150px;
+    padding: 1.25em 150px;
     text-transform: capitalize;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -139,6 +139,16 @@ hr {
     margin-right: 2em;
     border-style: none;
     vertical-align: middle;
+    height: 50%;
+    width: 50%;
+}
+@media screen and (max-width:768px){
+    .stats{
+        margin: auto;
+    }
+    .stats-info-num{
+        font-size: 36px;
+    }
 }
 
 /* ******Perks******** */
