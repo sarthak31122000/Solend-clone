@@ -86,11 +86,13 @@ hr {
 }
 /* **** content**** */
 .content{
+    font-size: 72px;
+    font-weight: 300;
+    letter-spacing: -.05em;
+    line-height: 76px;
+    /* max-width: 900px; */
     width: 48%;
-    font-size: 4em;
-    margin-left: 2em;
-    margin-top: 0.5em;
-    font-weight: 350;
+    margin: 0.5em 0 0 2em;
 }
 .stats{
     display: flex;
